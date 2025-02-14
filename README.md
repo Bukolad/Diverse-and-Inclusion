@@ -19,6 +19,10 @@ Descriptive Analysis : Provides an overview of the current state of diversity an
       Male = CALCULATE(COUNTROWS('Pharma Group AG'),'Pharma Group AG'[Gender]="MALE")
       Leavers =counta('Pharma Group AG'[Leaver FY])
       Promoted =  CALCULATE(COUNTROWS('Pharma Group AG'),'Pharma Group AG'[Promotion in FY21?]="yes")
+     ## Snapshot of KPIs
+  ![image](https://github.com/user-attachments/assets/72b9ef11-1b30-485f-b772-a3362ae1fbaa)
+
+  
 - Step 5: Visual filters were added to the report for the fields (Department,Region Group,Age Group,Job Level)
   ## Snapshot of Visual filters
   ![image](https://github.com/user-attachments/assets/a75034ed-79da-483c-ab3a-8c446605c90f)
