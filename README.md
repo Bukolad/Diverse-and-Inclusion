@@ -20,6 +20,10 @@ Descriptive Analysis : Provides an overview of the current state of diversity an
       Leavers =counta('Pharma Group AG'[Leaver FY])
       Promoted =  CALCULATE(COUNTROWS('Pharma Group AG'),'Pharma Group AG'[Promotion in FY21?]="yes")
 - Step 5: Visual filters were added to the report for the fields (Department,Region Group,Age Group,Job Level)
+  ## Snapshot of Visual filters
+  ![image](https://github.com/user-attachments/assets/a75034ed-79da-483c-ab3a-8c446605c90f)
+
+  
 - Step 6: Line and stacked column chart were included in Report design
   - Both chart represent the Promotion for Female and Male after FY20
 - Step 7:Line Chart was created to visualize Female and Male Turnover Rate for FY20
